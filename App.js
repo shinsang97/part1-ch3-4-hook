@@ -13,13 +13,13 @@ export default function App() {
   return (
     <View style={styles.container}>
       {/* <StateWithClassComponent /> */}
-      {/* <StateWithFuctionalComponent /> */}
+      <StateWithFuctionalComponent />
       {/* {isTrue ? <UseEffectWithClassComponent /> : null} */}
       {/* {isTrue && <UseEffectWithClassComponent />} */}
       {/* <UseEffectWithFunctionalComponent /> */}
       {/* <Button title="toggle" onPress={() => setIsTrue(!isTrue)} /> */}
 
-      <CustomHook />
+      {/* <CustomHook /> */}
     </View>
   );
 }
